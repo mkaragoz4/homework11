@@ -10,6 +10,7 @@ package questions;
 public class Personel {
 	public int id;
 	public static int sayac=123100;  //static olmasının nedeni eski degerini silip yeni değer oluşturması
+	public static int sayac2=152000;
 	public String isim;
 	public String soyIsim;
 	public String adres;
@@ -18,8 +19,14 @@ public class Personel {
 	public void idAtama() {   // Her çalışana farklı bir id vermek için bir id üretme kodu
 		id=sayac;
 		sayac++;
-		
+			
+	}
+	
+	public void idForMemur() {
+		id=sayac2;
+		sayac++;
 		
 	}
+	
   }
  

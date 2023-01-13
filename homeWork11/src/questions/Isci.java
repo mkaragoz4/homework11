@@ -68,7 +68,7 @@ public class Isci extends Muhasebe {
 		isciListe3.add(maasString3);
 		System.out.println(isciListe3);
 		
-		
+		Memur.memurlar();
 		
 	}
 }

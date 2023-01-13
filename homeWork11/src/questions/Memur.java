@@ -12,9 +12,9 @@ import java.util.ArrayList;
 		super.statu=statu;
 	}
 	
-	public static void main (String[]args) {
+	public static void memurlar () {
 		Memur memur1=new Memur("Ali","YILMAZ","Ankara","0555 345 65 65", "Sef");
-		memur1.idAtama();   
+		memur1.idForMemur();   
 		memur1.maasHesapla(12.2); 
 		
 		
@@ -36,7 +36,7 @@ import java.util.ArrayList;
 		
 		
 		Memur memur2=new Memur("Ali Osman","CEBECİ","Ankara","0555 345 65 65", "Sef");
-		memur2.idAtama();   
+		memur2.idForMemur();   
 		memur2.maasHesapla(12.2); 
 		
 		
@@ -57,7 +57,7 @@ import java.util.ArrayList;
 		
 		
 		Memur memur3=new Memur("Ali ","KOC","IZMIR","0555 345 65 65", "Sef");
-		memur3.idAtama();   
+		memur3.idForMemur();   
 		memur3.maasHesapla(12.2); 
 		
 		
